@@ -1,0 +1,25 @@
+@import "../vars";
+
+.footer {
+    border:1px solid $proto-theme__color--primary;
+}
+
+.footer {
+  text-align: center;
+  background: $proto-theme__color--primary;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  height: $footer__height;
+}
+
+.footer__phenomicReference {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  color: $footer__text--color;
+  text-decoration: none;
+}
+
+.footer__phenomicReferenceName {
+  font-weight: 100;
+}

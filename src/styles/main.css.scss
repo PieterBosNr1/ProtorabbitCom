@@ -1,0 +1,59 @@
+/*@import "vars";
+
+@import "base";
+
+@import "parts/hero";
+@import "parts/logo";
+@import "parts/thumb";
+//@import "parts/menu";
+@import "parts/footer";
+
+.deze {
+  color:blue;
+  &__ded{
+    color:$proto-theme__color--secondary;
+    border:1px solid green;
+  }
+}
+
+.not_cool {
+  color:blue;
+}
+.wrapper {
+  background: white;
+}
+
+
+.title {
+
+  color: $proto__font--color--primary;
+  padding-top:1rem;
+  padding-bottom: 0;
+  vertical-align: bottom;
+  margin: 0;
+  &__highlight {
+    color : darken($proto__font--color--primary, 15%);
+  }
+}
+.title--center {
+  text-align: center
+}
+
+.landing-quote{
+  font-size:2rem;
+  text-align: center;
+  position: relative;
+}
+.landing-quote:before{
+  content:'"';
+  display: inline-block;
+
+
+}
+.landing-quote:after{
+  content:'"';
+  display: inline-block;
+
+}
+
+*/

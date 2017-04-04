@@ -1,0 +1,16 @@
+
+.logo {
+  margin-bottom:10px;
+  &__img{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  &__img--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__text {
+    display: inline-block;
+  }
+}
