@@ -9,6 +9,7 @@ import styles from "./index.scss"
 
 const Post = (props) => {
   // it's up to you to choose what to do with this layout ;)
+  //fake commit
   const pageDate = props.head.date ? new Date(props.head.date) : null
 
   return (
